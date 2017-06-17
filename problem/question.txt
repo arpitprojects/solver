@@ -1,0 +1,22 @@
+** Jumble  Solver **
+
+A popular RJ hosts a competition in his evening radio show. One lucky caller gets a load of goodies if he/she can guess the word whose alphabets have been jumbled. For example the presenters gives you a series of alphabets "e p m a l x e" and the participant has to figure out the word it spells, which is "Example". 
+ 
+Your friend Mr. S. Khan has qualified for the show and is due to appear tomorrow evening sadly he is no good with spellings yet the goodie bag will make him very happy.
+
+You can help Mr Khan by writing a solver, a small computer application that can look up all the various combinations and instantly tell you the right set of words. 
+
+"Brief: Write a small command line application that takes the jumbled input string and prints out all correct english words with the same set of characters. The set of words are listed in the attached file.(dictionary.txt)"
+
+
+Requirements:
+
+    it should be called solver.*
+    The behaviour should be:
+    $ solver.exe "epmalxe"
+    -> example
+    Your solution should :
+    1) Use memory and processor optimally, if needed please trade-of memory in favor of having smaller processing times.
+    2) As the list of words is large please use the attached dictionary file, we will only test for words that are in this dictionary. [see attached file dictionary.txt]
+    3) Explain your solution within the  code File, comment your code where needed.
+
